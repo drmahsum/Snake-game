@@ -26,6 +26,7 @@ function draw(){
 	fill(125,12,112);
 	rect(food.x,food.y,scl,scl);
 	fill(255);
+	textSize(25);
 	text('score: '+score,20,20);
 	
 	
