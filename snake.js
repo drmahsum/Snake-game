@@ -10,7 +10,7 @@ function Snake() {
 			this.x=0;
 		}
 		if(this.x<0){
-			this.x=floor(width/scl)*scl;
+			this.x=floor(width/scl)*scl;//just fiexed here
 		}
 		if(this.y>height){
 			this.y=0;
